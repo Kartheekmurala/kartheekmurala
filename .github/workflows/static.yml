@@ -36,7 +36,7 @@ jobs:
         with:
           node-version: v20.9.0
       - run: |
-          npm install
+          npm i install
           node index.js
       - name: Setup Pages
         uses: actions/configure-pages@v3
